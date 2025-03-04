@@ -13,4 +13,4 @@ git merge
 since 2025/3/1? maybe , i start to learn git which i have learnd in my university
 but i have totaly forget how to use it
 so i decide to learn it again.
-I was not hard
+I find it was not hard what i have imaged.
