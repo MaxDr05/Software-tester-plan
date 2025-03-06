@@ -1,3 +1,9 @@
+git rebase：有 主分支master  分支bugFix
+先在bugFix上使用 git rebase master
+在切换到主分支master 使用 git rebase bugFix
+
+
+
 git clone
 git add
 git commit 
