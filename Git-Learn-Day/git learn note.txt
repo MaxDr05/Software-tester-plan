@@ -1,0 +1,32 @@
+git rebase：有 主分支master  分支bugFix
+先在bugFix上使用 git rebase master
+在切换到主分支master 使用 git rebase bugFix
+
+git checkout 命令的本质是改变head的指向
+例如：git checkout HEAD~4   是把head指针往上指4个parent节点
+
+强制修改分支位置：git branch -f (分支名) HEAD^3
+
+
+git reset HEAD~1
+
+git revert HEAD 会在当前要撤销的提交记录后面多一个更改的新提交（用来撤销之前那个的提交）-这个命令主要是撤销远程仓库的更改
+
+
+
+git clone
+git add
+git commit 
+git status
+git log
+git push
+git pull
+git checkout
+git switch 
+git rm
+git merge
+
+since 2025/3/1? maybe , i start to learn git which i have learnd in my university
+but i have totaly forget how to use it
+so i decide to learn it again.
+I find it was not hard what i have imaged.

@@ -1,0 +1,48 @@
+python:
+
+1、str-》Unicode（通常2个字节）
+但大部分数字和英文字母1个字节即可存储，所以内存方面并不划算
+Unicode -> Utf-8(可变长编码)
+
+注意：在网络上传输或保存时，需要把str变为以字节为单位的bytes
+
+X = b'ABC'
+
+str 转 bytes
+例子：
+'ABC'.encode('ascii')
+'中文'.encode('utf-8')
+
+bytes转str
+例子：
+b'ABC'.decode('ascii')
+b'\xe4\xb8\xad\xe6\x96\x87'.decode('utf-8')
+
+如果bytes中只有一小部分的无效字节，可以传入 errors='ignore' 忽略错误的字节
+example:
+b'\xe4\xb8\xad\xff'.decode('utf-8', errors='ignore')
+
+
+2、保存源代码时，需要指定保存为utf-8编码
+文件开头：
+
+第一行注释是为了告诉Linux/OS X系统，这是一个Python可执行程序，Windows系统会忽略这个注释；
+
+第二行注释是为了告诉Python解释器，按照UTF-8编码读取源代码，否则，你在源代码中写的中文输出可能会有乱码。
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+3、格式化字符串
+第一种占位符
+print('%s  %d '%('zhao',100000))
+
+第二种format
+'Hello, {0}, 成绩提升了 {1:.1f}'.format('小明', 17.125)
+'Hello, 小明, 成绩提升了 17.1'
+
+第三种fstring
+最后一种格式化字符串的方法是使用以f开头的字符串，称之为f-string，它和普通字符串不同之处在于，字符串如果包含{xxx}，就会以对应的变量替换：
+>>> r = 2.5
+>>> s = 3.14 * r ** 2
+>>> print(f'The area of a circle with radius {r} is {s:.2f}')
+The area of a circle with radius 2.5 is 19.62
