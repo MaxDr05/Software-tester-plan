@@ -1,0 +1,18 @@
+note:
+1、重温break continue的用法  尽量少用，因为在程序中添加了分支逻辑
+2、熟悉字符串占位：format %d f""
+3、dict and map
+dict:
+    要避免key不存在的错误，有两种办法，一是通过in判断key是否存在：
+    >>> 'Thomas' in d
+    False
+    二是通过dict提供的get()方法，如果key不存在，可以返回None，或者自己指定的value：
+    >>> d.get('Thomas')
+    >>> d.get('Thomas', -1)
+    -1
+
+函数：函数名+参数个数（如有必要可先检查）PS：函数可以同时返回多个值-》tuple
+
+
+注意：默认参数需要使用不变对象！ 不然使用list这种，他就被创建出来了
+

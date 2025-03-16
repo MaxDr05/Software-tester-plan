@@ -1,0 +1,85 @@
+[33mcommit 43104e8afbbad57bbc778de86063d6e30af031dd[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Merge: 3bb0fd1 cf0e21b
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Sat Mar 1 13:55:01 2025 +0800
+
+    conflict fixed
+
+[33mcommit 3bb0fd1090c55a9b4f6e8827884863327996b0a6[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Sat Mar 1 13:50:59 2025 +0800
+
+    & simple
+
+[33mcommit cf0e21b797f37656377d0b035abf3036497f1563[m[33m ([m[1;32mfeature1[m[33m)[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Sat Mar 1 13:49:45 2025 +0800
+
+    AND simple
+
+[33mcommit 8822851a8d1d9266f214f29f3467bcb252df2c16[m[33m ([m[1;32mdev[m[33m)[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Sat Mar 1 13:43:10 2025 +0800
+
+    branch test
+
+[33mcommit eaa0e10c66c6a04fcf6eac511eae6838a710ad8a[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: 42b2b49 36c6d0b
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Sat Mar 1 13:23:16 2025 +0800
+
+    Merge branch 'main' of github.com:MaxDr05/Software-tester-plan
+
+[33mcommit 42b2b49931e9573d573a00f9947ccdeabbcfaaab[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Sat Mar 1 09:08:38 2025 +0800
+
+    remove test.txT
+
+[33mcommit e718c77fad5f8cb504364348e6643e68b6417527[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Sat Mar 1 09:06:01 2025 +0800
+
+    add test.txT
+
+[33mcommit 819423cfc6dbcef65f357e3c57a277f08e26e629[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Sat Mar 1 08:36:38 2025 +0800
+
+    of files
+
+[33mcommit 526ff3a76907f754588fc2f3764457ff4bf7f9f5[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Sat Mar 1 08:31:38 2025 +0800
+
+    git tracks changes
+
+[33mcommit 5b1f0cb0d049e507561e35945ed2cfc4329c8177[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Fri Feb 28 23:54:06 2025 +0800
+
+    understand how stage works
+
+[33mcommit b33c19d53ed570d02cc93d516557544177a3e4d2[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Fri Feb 28 23:20:35 2025 +0800
+
+    append GPL
+
+[33mcommit 6b04a3373aac61d6fc89909766289959b077c880[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Fri Feb 28 23:18:09 2025 +0800
+
+    add distributed
+
+[33mcommit beb698536902d373f131e2530d021aa27638e711[m
+Author: MaxCalvin <qq603992850@gmail.com>
+Date:   Fri Feb 28 23:13:55 2025 +0800
+
+    wrote a readme file
+
+[33mcommit 36c6d0ba52b6aee32b16fc7eae9ed70c78cd30be[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: MaxDr05 <104257160+MaxDr05@users.noreply.github.com>
+Date:   Fri Feb 28 22:49:48 2025 +0800
+
+    Initial commit
