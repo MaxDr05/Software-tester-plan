@@ -4,15 +4,11 @@ def findMinAndMax(L):
     if not L:
         return (None, None)
     
-    #最大
-    numMax = L[0]
-    for num in L:
+    #最大 最小一起查找
+    numMax = numMin = L[0]
+    for num in L[1:]:
         if numMax < num:
             numMax = num
-    
-    #最小
-    numMin = L[0]
-    for num in L:
         if numMin > num:
             numMin = num
 
