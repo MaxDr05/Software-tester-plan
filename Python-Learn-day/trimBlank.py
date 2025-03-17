@@ -1,33 +1,24 @@
+# -*- coding: utf-8 -*-
 def trim(s):
-    cnt = 0
-    #考虑空值传入
-    if s == "":
+    if not s:
         return s
     
-    for letter in s:
-        #去除前置空格
-        if letter == ' ':
-            cnt += 1
-            if cnt == len(s):
-                return ""
-        else:
-            s = s[cnt:]
-            cnt = len(s)
-            break
-
-    for letter in s[::-1]:
-        #去除后置空格
-        if letter == ' ':
-            cnt -= 1
-        else:
-            s = s[:cnt]
-            break
-    return s
-
+    start = 0
+    while start < len(s) and s[start] == ' ':
+        start += 1
+    
+    if start == len(s):
+        return ''
+    
+    end = len(s) - 1
+    while end >= 0 and s[end] == ' ':
+        end -= 1
+    
+    return s[start:end + 1]
 
 # 测试:
 if trim('hello  ') != 'hello':
-    print('11!')
+    print('1!')
 elif trim('  hello') != 'hello':
     print('111!')
 elif trim('  hello  ') != 'hello':
@@ -39,4 +30,4 @@ elif trim('') != '':
 elif trim('    ') != '':
     print('1!')
 else:
-    print('2!')
+    print('PASS!')
