@@ -1,3 +1,5 @@
+#在一个列表生成式中，for前面的if ... else是表达式，而for后面的if是过滤条件，不能带else
+
 list1 = [x * x for x in range(1,11) if x * x % 2 == 0]
 print(list1)
 
