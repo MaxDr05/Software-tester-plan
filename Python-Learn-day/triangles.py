@@ -1,5 +1,16 @@
 def triangles():
-    pass
+    list1 = [1]
+    cnt = 1
+    while cnt > 0:
+        yield(list1)
+        list1.insert(0,0)
+        list1.append(0)
+        list2 = [ list1[x]+list1[x+1] for x in range(0,len(list1)-1)]
+        list1 = list2
+        cnt += 1
+
+
+    
 
 # 期待输出:
 # [1]
@@ -35,6 +46,7 @@ if results == [
     [1, 8, 28, 56, 70, 56, 28, 8, 1],
     [1, 9, 36, 84, 126, 126, 84, 36, 9, 1]
 ]:
-    print('测试通过!')
+    print('1!')
 else:
-    print('测试失败!')
+    print('2!')
+
