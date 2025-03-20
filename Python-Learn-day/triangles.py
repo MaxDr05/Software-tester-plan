@@ -1,11 +1,8 @@
 def triangles():
     list1 = [1]
-    cnt = 1
-    while cnt > 0:
+    while True:
         yield(list1)
-        temp = [0] + list1 + [0]
-        list1 = [ temp[x]+temp[x+1] for x in range(0,len(temp)-1)]
-        cnt += 1
+        list1 = [1] + [ list1[x]+list1[x+1] for x in range(len(list1)-1)] + [1]
 
 
     
